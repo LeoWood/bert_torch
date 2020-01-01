@@ -12,7 +12,7 @@ model_mask_en = BertForMaskedLM.from_pretrained('bert-base-uncased')
 model_mask_cn = BertForMaskedLM.from_pretrained('bert-base-chinese')
 model_nsp_en = BertForNextSentencePrediction.from_pretrained('bert-base-uncased')
 model_nsp_cn = BertForNextSentencePrediction.from_pretrained('bert-base-chinese')
-tokenizer_en = BertTokenizer.from_pretrained('ber-base-uncased')
+tokenizer_en = BertTokenizer.from_pretrained('bert-base-uncased')
 tokenizer_cn = BertTokenizer.from_pretrained('bert-base-chinese')
 
 def predict_mask_cn(text):
